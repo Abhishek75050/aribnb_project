@@ -16,7 +16,7 @@ def cleanBathRoom(x):
     if float(x) < 7:
         return x
     else:
-        return 1
+        return 1 
 
 
 def cleanBedrooms(x):
