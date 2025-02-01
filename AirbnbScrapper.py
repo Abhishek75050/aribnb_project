@@ -106,7 +106,7 @@ class AirbnbScraper:
                     crawled_listings.update(listing['id'] for listing in new_listings)
 
         with codecs.open('listings.json', 'w', encoding='utf-8') as f:
-            csv.dump(listings, f)
+            csv.dump(listings, f)   
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
